@@ -190,7 +190,6 @@ end
 
 print("[ServerHop] GUI parenteada em: " .. screenGui.Parent:GetFullName())
 
--- ================= Colors (CloverHub-like) =================
 local ACCENT_GREEN = Color3.fromRGB(80, 250, 123)   -- #50FA7B
 local ACCENT_GRAY = Color3.fromRGB(226, 226, 226)   -- #E2E2E2
 local BG_DARK = Color3.fromRGB(12, 12, 14)
@@ -214,7 +213,7 @@ local cardCorner = Instance.new("UICorner")
 cardCorner.CornerRadius = UDim.new(0, 14)
 cardCorner.Parent = card
 
--- subtile stroke para combinar com CloverHub
+
 local cardStroke = Instance.new("UIStroke")
 cardStroke.Name = "CardStroke"
 cardStroke.Color = STROKE
